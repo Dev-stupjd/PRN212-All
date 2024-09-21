@@ -15,6 +15,7 @@ namespace Demo2
             Console.WriteLine("============================= ");
             Console.WriteLine();
             Console.WriteLine("Display Product: ");
+            Console.WriteLine();
             Console.WriteLine("First product: ");
             pd1.display();
             Console.WriteLine();
@@ -54,7 +55,7 @@ namespace Demo2
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Discount must be a number");
+                    Console.WriteLine(e);
                 }
             }
         }
